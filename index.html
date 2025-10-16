@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ciberseguridad: Vulnerabilidades y Amenazas</title>
+  <meta name="description" content="Vulnerabilidades y amenazas en la web y la nube" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- Librería AOS para animaciones -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 🔹 Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo" data-aos="fade-down">🔒 Ciberseguridad</h1>
+      <nav class="nav" data-aos="fade-down" data-aos-delay="200">
+        <ul>
+          <li><a href="#web">Web</a></li>
+          <li><a href="#nube">Nube</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🔹 Hero -->
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h2>Protege tus sistemas frente a las amenazas digitales</h2>
+      <p>Conoce las vulnerabilidades más comunes en la web y en la nube, cómo prevenirlas y sus consecuencias.</p>
+      <a href="#web" class="btn">Comenzar</a>
+    </div>
+  </section>
+
+  <!-- 🔹 Vulnerabilidades Web -->
+  <section id="web" class="section">
+    <div class="container">
+      <h2 data-aos="fade-up">🌐 Vulnerabilidades y Amenazas en la Web</h2>
+      <p data-aos="fade-up" data-aos-delay="100">
+        Las vulnerabilidades web son errores en la configuración o el código de aplicaciones que los atacantes pueden explotar para obtener acceso no autorizado.
+      </p>
+
+      <div class="grid">
+        <div class="card" data-aos="zoom-in">
+          <h3>Inyección SQL</h3>
+          <p>Permite ejecutar comandos en la base de datos a través de entradas manipuladas.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>XSS (Cross-Site Scripting)</h3>
+          <p>Inserta scripts maliciosos para robar información o manipular sesiones.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>CSRF</h3>
+          <p>Fuerza a un usuario autenticado a ejecutar acciones no deseadas.</p>
+        </div>
+      </div>
+
+      <h3 data-aos="fade-up" data-aos-delay="300">🛡️ Prevención</h3>
+      <ul data-aos="fade-up" data-aos-delay="400">
+        <li>Validar entradas de usuario y usar consultas preparadas.</li>
+        <li>Implementar HTTPS y Content Security Policy.</li>
+        <li>Usar autenticación fuerte y mantener software actualizado.</li>
+      </ul>
+
+      <h3 data-aos="fade-up" data-aos-delay="500">⚠️ Consecuencias</h3>
+      <ul data-aos="fade-up" data-aos-delay="600">
+        <li>Robo de datos y credenciales.</li>
+        <li>Compromiso del sitio web o servidores.</li>
+        <li>Pérdida de reputación y sanciones legales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🔹 Vulnerabilidades en la Nube -->
+  <section id="nube" class="section alt-bg">
+    <div class="container">
+      <h2 data-aos="fade-up">☁️ Vulnerabilidades y Amenazas en la Nube</h2>
+      <p data-aos="fade-up" data-aos-delay="100">
+        La nube ofrece grandes ventajas, pero también presenta riesgos como configuraciones incorrectas, robo de credenciales y fugas de datos.
+      </p>
+
+      <div class="grid">
+        <div class="card" data-aos="flip-left">
+          <h3>Configuraciones Inseguras</h3>
+          <p>Permisos mal definidos pueden exponer datos sensibles públicamente.</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="150">
+          <h3>Fugas de Datos</h3>
+          <p>La falta de cifrado puede permitir el acceso no autorizado a información privada.</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="300">
+          <h3>Robo de Credenciales</h3>
+          <p>Las claves de acceso a servicios son un blanco frecuente para los atacantes.</p>
+        </div>
+      </div>
+
+      <h3 data-aos="fade-up" data-aos-delay="400">🛡️ Prevención</h3>
+      <ul data-aos="fade-up" data-aos-delay="500">
+        <li>Cifrar datos en tránsito y reposo.</li>
+        <li>Usar autenticación multifactor (MFA).</li>
+        <li>Monitorear accesos y configurar alertas de seguridad.</li>
+      </ul>
+
+      <h3 data-aos="fade-up" data-aos-delay="600">⚠️ Consecuencias</h3>
+      <ul data-aos="fade-up" data-aos-delay="700">
+        <li>Pérdida de datos críticos o confidenciales.</li>
+        <li>Interrupción de servicios y pérdida económica.</li>
+        <li>Exposición pública de información y pérdida de confianza.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Ciberseguridad Digital | Desarrollado por Juan J. Velásquez O.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
+
